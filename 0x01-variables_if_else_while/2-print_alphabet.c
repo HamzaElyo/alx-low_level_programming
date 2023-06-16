@@ -10,7 +10,7 @@ int x;
 for (x = 'a'; x <= 'z'; x++)
 {
 putchar(x);
-if ( x == 'z')
+if (x == 'z')
 putchar('\n');
 }
 return (0);
