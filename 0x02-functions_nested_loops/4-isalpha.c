@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * isalpha - checks if is a letter
- * Return 
+ * _isalpha - checks if is a letter
+ * Return
  */
 int _isalpha(int c)
 {
