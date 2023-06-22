@@ -1,11 +1,10 @@
-#ifndef MAIN_H
-#define MAIN_H
-/**
-*main - header file for protoypes
-*void protoypes (void)
-*int protoypes (int)
-*/
+#ifndef main_h
+#define main_h
+ /**
+ *main - header file for protoypes
+ * 
+ */
 
-int _isupper(int c);
+int _isupper(int);
 
 #endif
