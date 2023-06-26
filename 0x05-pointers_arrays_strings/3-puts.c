@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * _puts - a fonction that orints a string followed by a new line
  * @str:the string to be printed
