@@ -38,7 +38,7 @@ return (inc);
 *Return: nothing
 */
 
-void swap_char(char *a, int *b)
+void swap_char(char *a, char *b)
 {
 char tmp = *a;
 *a = *b;
