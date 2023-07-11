@@ -18,7 +18,10 @@ if (s2 == NULL)
 s2 = "";
 s = malloc(i + j + 1);
 if (s == NULL)
+{
+free(s);
 return (NULL);
+}
 for (k = 0; k < i; k++)
 s[k] =  s1[k];
 for (k = 0; k < j; k++)
