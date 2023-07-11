@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * str-concat - function that concatinates to strings
+ * str_concat - function that concatinates to strings
  * @s1: first string;
  * @s2 second string
  * Return: string
@@ -16,7 +16,7 @@ if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-s = malloc (i + j + 1);
+s = malloc(i + j + 1);
 if ( s == NULL)
 return (NULL);
 for (k = 0; k < i; k++)
